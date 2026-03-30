@@ -8,13 +8,11 @@ The work will be divided between the 3 project contributors as follows:
 * Hamzah: Code Styling + Task Estimation
 
 For each topic, the contributor assigned as the primary contributor will:
-
 * Provide 3 relevant and high-quality sources
 * Write the majority of the article content implementing those sources into the content
 
-Once the primary contributor has completed their writing on the topic:
+Once the primary contributor has completed their writing on the topic, a meeting will take place between the primary contributor and the secondary contributor.
 
-* A meeting will take place between the primary contributor and the secondary contributor
 * This meeting will be used to:
   * Review the current state of the article
   * Discuss the sources used
@@ -25,8 +23,10 @@ The purpose of this meeting is to ensure and maintain quality.
 Following the meeting:
 
 * The secondary contributor will:
-  * Provide 2 additional sources
-  * Ensure these sources meaningfully enhance the article’s quality and depth
+  * Provide 2 additional sources and ensure these sources meaningfully enhance the article’s quality and depth
+  * Complete the article's content implementing the additional sources provided
+
+After both contributors agree and are happy with the content, the primary contributor will post a PR to GitHub. The remaining person who did not contribute work to the article's content will be responsible for reviewing the PR, checking for any errors stylistically or grammatically. After this person approves, the primary contributor to the branch will merge the branch into main. 
 
 # Git and Pull Request Rules
 1. Make sure to never commit to main. All progress should exist on separate feature branches and then merged into main after. 
