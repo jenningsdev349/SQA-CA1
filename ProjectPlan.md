@@ -3,7 +3,7 @@
 The third topic chosen for this project alongside Task Estimation and Code Reviews is Code Styling. 
 
 The work will be divided between the 3 project contributors as follows: 
-* Adam: Code Estimation and Code Reviews
+* Adam: Task Estimation and Code Reviews
 * Liam: Code Reviews + Code Styling
 * Hamzah: Code Styling + Task Estimation
 
