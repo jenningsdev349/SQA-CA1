@@ -45,11 +45,10 @@ After both contributors agree and are happy with the content, the primary contri
 4. When creating a heading for a section, use "##".
 5. When using subheadings, use "###".
 6. Bullet points should be done with "*".
-7. Use APA 7 when citing sources in the article's content.
 
 # File Template
 1. All pages should start with a title.
 2. Contributors to articles should be written with a subheading underneath the title. 
 3. Sources belonging to each topic's article should be placed at the bottom of the article with a "Sources" heading.
-4. Images/Appendices can be added to the article at the bottom of the article but above the Sources heading, in a section titled "Appendices".
+4. Images/Appendices may be featured throughout the article, after relevant paragraphs to reinforce the points made in that paragraph. 
 5. There must be both an introduction and conclusion segment in each article.
