@@ -90,7 +90,29 @@ Instead, use comments to convey the "why" behind specific actions or explain beh
 Keep the length of lines under 120 characters to improve readability.
 
 
+## 4. Flexibility Within Standards
+Coding standards should create consistency across the organisation, but they do not need to control every small stylistic choice. In many cases, it is more effective for standards to guide developers toward writing code that is clear, maintainable, and easy for others to understand.
+
+### Supporting Good Judgment
+Developers should have some flexibility in how they write code.
+As long as the result is readable, consistent, and aligned with team expectations, this allows them to choose the clearest solution for the task.
+
+### Keeping the Codebase Consistent
+Flexibility should not lead to unnecessary variation.
+If standards are too loose, different parts of the codebase can become inconsistent, making it harder for team members to move between files and understand each other’s work.
+
+### Making Reviews Clearer
+Standards should give reviewers a shared baseline.
+Without that baseline, code reviews can become more subjective, with decisions based more on personal preference than on agreed best practices.
+
+### Finding the Right Balance
+The most effective standards combine structure with practical flexibility.
+The aim is to give employees clear expectations while still leaving room for sensible decisions when different situations call for different approaches.
+
+![Flexibility illustration](../images/CS_Temp.png)
+
 ## Conclusion
+Coding standards play an important role in keeping a codebase clear, consistent, and easier to maintain over time. They help developers write code that others can quickly understand, review, and build on. At the same time, effective standards should not feel unnecessarily restrictive. The goal is to provide a clear baseline that supports readability, collaboration, and quality across the organisation, while still leaving room for practical judgment when needed. When teams follow shared standards and focus on clean, simple code, the result is a codebase that is easier to work with and more reliable in the long run.
 
 ## Sources
 * https://medium.com/@SoftwareEngineering/mastering-clean-code-and-coding-standards-5d436e3ff32c
@@ -98,3 +120,7 @@ Keep the length of lines under 120 characters to improve readability.
 * https://blog.codacy.com/what-is-clean-code
 
 * https://medium.com/@curiousraj/the-principles-of-clean-code-dry-kiss-and-yagni-f973aa95fc4d
+
+* https://kodus.io/en/evolving-code-standards-scaling-teams/
+
+* https://martinfowler.com/bliki/CodeAsDocumentation.html
