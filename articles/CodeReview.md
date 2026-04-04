@@ -1,5 +1,5 @@
 # Guide to Code Reviews
-## Contributors: Liam Wiktorski
+### Contributors: Liam Wiktorski & Adam Jennings
 
 ## Introduction
 Code reviews are one of the easiest ways to improve code quality over time. They help catch bugs, make projects easier to maintain, and give teams a shared standard for what “good code” actually looks like. At the same time, they can also be one of the most frustrating parts of development if people handle them badly. A good review process should improve the code without turning every pull request into an argument.
@@ -23,6 +23,22 @@ The best balance usually comes from keeping reviews small and moving them quickl
 
 ![Balanced Review](../images/CR_Bal.png)
 
+## 4. Tools vs. Face-To-Face
+Code reviews are done through code review tools (i.e. GitHub) that bring convenience both to the reviewer and the person who's code is being reviewed. However convenient these tools may be, there is cases where it is better to drop the tools and reach out to have a face-to-face talk about a pull request.
+
+A standard code review involves a reviewer leaving comments, questions and requested changes on a pull request. The PR poster will then address these comments, questions and push commits to address requests. The process then repeats if the reviewer does not find the changes adequate. This can leave a lot to be desired at times, as this can lead to long back-and-forths in the comments that increase the length of time it takes for code to get merged.
+
+A good practice to avoid these back-and-forths is to reach out to the pull request poster before leaving comments to ask questions and raise concerns. This saves time by avoiding long comment chains. Long back-and-forths are not good for teams and the review process, and should be avoided as much as possible.
+
+![Review Process](../images/CR_process.webp)
+
+# 5. Substantive and Helpful Comments
+Reviewers can be helpful to the PR author by providing code examples within comments. 
+
+Helping to lighten the workload of the PR author helps immensely when trying to get a piece of code merged. This becomes especially true when a request made by the code reviewer can be difficult and time consuming to implement. If a request is made to significantly change a class to fit an agreed upon standard set by the team, point the PR contributor to other classes in the codebase where this has been followed. 
+
+There may be small chunks of code in a PR where a reviewer might raise concerns. It would be meaningful for that reviewer to leave a small code snippet to get a developer started on addressing a request. This keeps PRs moving along in the code review process and increases the speed at which a PR gets merged.
+
 ## Conclusion
 Code reviews work best when people treat them as collaboration instead of correction. The person submitting the code should be open to feedback, and the reviewer should be clear without being harsh. When both sides approach the process properly, reviews stop feeling like a formality or a fight and start doing what they are supposed to do: improving the code and helping the team work better together.
 
@@ -30,3 +46,5 @@ Code reviews work best when people treat them as collaboration instead of correc
 * https://abseil.io/resources/swe-book/html/ch09.html
 * https://blog.pragmaticengineer.com/good-code-reviews-better-code-reviews/
 * https://stackoverflow.blog/2019/08/07/what-every-developer-should-learn-early-on/
+* https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/
+* https://mtlynch.io/human-code-reviews-1/
