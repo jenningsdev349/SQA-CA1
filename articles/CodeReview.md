@@ -10,7 +10,7 @@ Code reviews are one of the easiest ways to improve code quality over time. They
 
 One of the biggest problems in code reviews is how easy it is to take comments personally. After spending hours solving a problem, even a small suggestion can feel more critical than it really is. That's usually where tension starts. A reviewer may only mean that a function is unclear, but the person receiving the comment can hear it as a judgment on their ability.
 
-The better way to look at it is that the pull request is not a reflection of your worth as a developer. It is just work being improved before it gets merged. In practice, this means not rushing to defend every decision and not treating a long list of comments like proof that you failed. Strong developers still get plenty of feedback. What matters more is how they respond to it. Someone who explains their reasoning, makes changes where needed, and stays open to discussion usually gets much more out of the process than someone who goes quiet or becomes defensive.
+The better way to look at it is that the pull request is not a reflection of your worth as a developer. It is just work being improved before it gets merged. In practice, this means not rushing to defend every decision and not treating a long list of comments like proof that you failed. Strong developers still get plenty of feedback. What matters more is how they respond to it. Someone who explains their reasoning, makes changes where needed, and stays open to discussion usually gets much more out of the process than someone who becomes defensive.
 
 ![Venn Diagram](../images/CR_VD.png)
 
@@ -30,7 +30,7 @@ The best balance usually comes from keeping reviews small and moving them quickl
 
 ## 4. Tools vs. Face-To-Face
 
-Code reviews are done through code review tools such as GitHub, which make the process easier for both the reviewer and the person who's code is being reviewed. Even with that convenience, there are times when it is better to step away from the tool and have a direct conversation about a pull request.
+Code reviews are done through tools such as GitHub, which make the process easier for both the reviewer and the person whose code is being reviewed. Even with that convenience, there are times when it is better to step away from the tool and have a direct conversation about a pull request.
 
 A standard code review usually involves a reviewer leaving comments, questions and requested changes on a pull request. The author will then address these comments, questions and push commits to address requests. The process then repeats if the reviewer does not find the changes adequate. This can leave a lot to be desired at times, as this can lead to long back-and-forths in the comments that increase the length of time it takes for code to get merged.
 
@@ -42,9 +42,9 @@ A good practice to avoid this is to reach out to the pull request poster before 
 
 Reviewers can be helpful to the author by providing code examples within comments.
 
-Helping to lighten the workload of the author helps immensely when trying to get a piece of code merged. This becomes especially true when a request made by the code reviewer can be difficult and time consuming to implement. If a request is made that significantly changes a class to fit an agreed upon standard set by the team, point the PR contributor to other classes in the codebase where this has been followed.
+Helping to lighten the workload of the author helps immensely when trying to get a piece of code merged. This becomes especially true when a request made by the code reviewer can be difficult and time consuming to implement. For example, if a request is made that significantly changes a class to fit an agreed upon standard set by the team, point the PR contributor to other classes in the codebase where this has been followed.
 
-There may be small chunks of code in a PR where a reviewer might raise concerns. It would be meaningful for that reviewer to leave a small code snippet to get a developer started on addressing a request. This keeps PRs moving along in the code review process and increases the speed at which a PR can be merged.
+There may be small chunks of code in a PR where a reviewer might raise concerns. It would be meaningful for that reviewer to leave a small code snippet to get a developer started on addressing a request. This keeps PRs moving along in the code review process and decreases the time it takes to merge a PR.
 
 ## Conclusion
 
