@@ -32,7 +32,7 @@ A good practice to avoid these back-and-forths is to reach out to the pull reque
 
 ![Review Process](../images/CR_process.webp)
 
-# 5. Substantive and Helpful Comments
+## 5. Substantive and Helpful Comments
 Reviewers can be helpful to the PR author by providing code examples within comments. 
 
 Helping to lighten the workload of the PR author helps immensely when trying to get a piece of code merged. This becomes especially true when a request made by the code reviewer can be difficult and time consuming to implement. If a request is made to significantly change a class to fit an agreed upon standard set by the team, point the PR contributor to other classes in the codebase where this has been followed. 
