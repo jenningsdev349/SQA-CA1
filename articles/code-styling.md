@@ -2,21 +2,21 @@
 ### Contributors: Hamzah Naveid & Liam Wiktorski
 
 ## Introduction
-Forming a set of coding standards for the organisation to use as a guideline is one of the most cost-effective methods to ensure quality and maintainability of code within a codebase.
+Forming a set of coding standards for an organisation to use as a guideline is one of the most cost-effective methods to ensure quality and maintainability of code within a codebase.
 
-A good, effective set of standards doesn't force the developer to conform to numerous rigid rules regarding the way that code should be styled - **it is more involved with guiding developers toward writing cleaner code through "best practices"** that will save plenty of headaches, both for themselves and for members of their team. 
+A good, effective set of standards don't force the developer to conform to numerous rigid rules regarding the way that code should be styled - **it is more involved with guiding developers towards writing cleaner code through "best practices"** that will save plenty of headaches, both for themselves and for members of their team. 
 
-The simple act of keeping these best practices in mind while writing code makes it easer to read, understand, and contribute to the code.
+The simple act of keeping these best practices in mind while writing code makes it easier to read, understand, and contribute to the code.
 
 ## 1. What Exactly Is Clean Code?
 Clean code refers to code that is easy to read, understand, and maintain. 
 
 The term is used to encompass a set of principles and best practices for writing code, such as:
 
-* ### Using meaningful names
-* ### Clear comments
-* ### Consistent formatting
-* ### DRY and KISS principles
+* #### Using meaningful names
+* #### Clear comments
+* #### Consistent formatting
+* #### DRY and KISS principles
 
 ![Clean code](../images/clean_code.webp)
 
@@ -107,7 +107,7 @@ Without that baseline, code reviews can become more subjective, with decisions b
 
 ### Finding the Right Balance
 The most effective standards combine structure with practical flexibility.
-The aim is to give employees clear expectations while still leaving room for sensible decisions when different situations call for different approaches.
+The aim is to give developers clear expectations while still leaving room for sensible decisions when different situations call for different approaches.
 
 ![Flexibility illustration](../images/CS_Temp.png)
 
