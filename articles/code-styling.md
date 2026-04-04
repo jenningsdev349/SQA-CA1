@@ -1,4 +1,4 @@
-# Code Styling
+# Guide to Code Styling
 ### Contributors: Hamzah Naveid & Liam Wiktorski
 
 ## Introduction
@@ -27,7 +27,7 @@ Ultimately, the goal of clean code is to create software that is not only functi
 There are several reasons why keeping code clean is important:
 
 ### Readability and Maintenance
-Writing readable code reduces the time required to grasp the code's functionality, leading to faster development times.
+Writing readable code reduces the time required for future contributors to grasp the code's functionality - leading to faster development times.
 
 ### Team Collaboration
 Clear and consistent code facilitates communication and cooperation among team members, enabling understanding of each other's work and more effective collaboration.
